@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+    background-image: url(moroccan-flower.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+h1{
+    font-family: 'Times New Roman', Times, Serif;
+    color: navy;
+}
