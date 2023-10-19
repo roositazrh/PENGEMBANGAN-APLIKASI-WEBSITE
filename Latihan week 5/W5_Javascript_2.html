@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AKN Bojonegoro</title>
+</head>
+<body>
+<h1>JavaScript Can Change Images</h1>
+<img id="myImage" onclick="changeImage()" src="https://i.pinimg.com/originals/99/e1/db/99e1db68d67d5c77fdc3f715996850db.gif" width="100" height="180">
+<p>Click the image to change image.</p>
+<script>
+    function changeImage(){
+        var image = document.getElementById('myImage') ;
+        if (image.src.match("https://media.tenor.com/PUwm9bLW-3UAAAAC/jisung-cute-jisung")) { 
+            image.src = "https://i.pinimg.com/originals/99/e1/db/99e1db68d67d5c77fdc3f715996850db.gif";
+        } else {
+            image.src ="https://media.tenor.com/PUwm9bLW-3UAAAAC/jisung-cute-jisung.gif";
+        }
+    }
+    </script>
+</body>
+</html>
